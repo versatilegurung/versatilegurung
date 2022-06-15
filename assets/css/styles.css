@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@300;500;800&display=swap");
+:root {
+  --brand: #247BA0;
+  --body: #006494;
+  --dark: #13293D;
+  --border-radius: 6px;
+  --shadow: 0px 4px 60px rgba(0, 0, 0, 0.14);
+}
+
+/* reset & helpers */
+body {
+  font-family: "Barlow", sans-serif;
+  line-height: 1.7;
+  color: var(--body);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-weight: 700;
+  color: var(--dark);
+}
+
+a {
+  color: var(--dark);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--brand);
+}
+
+a.custom-link {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+img {
+  width: 100%;
+}
+
+section {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+section:before {
+  height: 100px;
+  content: "";
+  display: block;
+}
+
+.section-intro {
+  margin-bottom: 35px;
+  text-align: center;
+}
+
+.section-intro p {
+  max-width: 500px;
+  margin: auto;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+/* custom card */
+.custom-card {
+  transition: all 0.4s ease;
+  background-color: white;
+  border-radius: var(--border-radius);
+}
+
+.custom-card:hover {
+  box-shadow: var(--shadow);
+  transform: translateY(-5px);
+}
+
+/* button class */
+.btn {
+  padding: 12px 28px;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 700;
+  border-radius: var(--border-radius);
+  transition: all 0.4s ease;
+}
+
+.btn:hover {
+  transform: translateY(-3px);
+}
+
+.btn-brand {
+  background-color: var(--brand);
+  color: white;
+}
+
+.btn-brand:hover {
+  color: white;
+}
+
+.navigation {
+  padding-top: 40px;
+}
+.navigation .navbar-brand {
+  color: white;
+  font-weight: 800;
+  font-size: 2.5rem;
+}
+.navigation .navbar-brand span {
+  font-weight: 300;
+  font-size: 1.5rem;
+}
+.navigation .navbar-nav .nav-item {
+  margin-right: 15px;
+}
+.navigation .navbar-nav .nav-link {
+  border-radius: var(--border-radius);
+  color: white;
+}
+.navigation .navbar-nav .nav-link:active {
+  color: white;
+}
+.navigation .navbar-nav .nav-link:hover {
+  background-color: var(--dark);
+  color: white;
+}
+.navigation .navbar-nav .active {
+  background-color: var(--dark);
+  color: white;
+}
+/* cta */
+#cta {
+  padding-top: 70px;
+  padding-bottom: 70px;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/pexels-elevate-1267311.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+#cta h2, #cta p {
+  color: white;
+}
+
+.mainbackground {
+  background: url(../images/pexels-tofroscom-257849.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.home-text {
+  justify-content: center;
+  height: 50vh;
+  width: auto;
+  padding-top: 10%;
+}/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300;500;800&display=swap');
+
+
+:root {
+    --brand: #247BA0;
+    --body: #006494;
+    --dark: #13293D;
+    --border-radius: 6px;
+    --shadow: 0px 4px 60px rgba(0, 0, 0, 0.14);
+}
+
+@import 'helpers';
+@import 'navigation';
+
+/* cta */
+#cta{
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background:linear-gradient(rgba(0, 0, 0,  0.7), rgba(0, 0, 0, 0.7)), url(../images/pexels-elevate-1267311.jpg);
+    background-size:cover;
+    background-position: center;
+    background-attachment: fixed;
+      
+}
+
+#cta h2, #cta p{
+    color: white;
+}
+
+.mainbackground{
+    background:url(../images/pexels-tofroscom-257849.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+
+.home-text{
+    justify-content: center;    
+    height: 50vh;
+    width: auto;
+    padding-top: 10%;
+    
+}
